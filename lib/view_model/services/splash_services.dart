@@ -60,7 +60,7 @@ class SplashServices {
     // if(user != null){
 
     Timer(Duration(seconds: 3),
-            () => Navigator.pushNamed(context, RoutesName.login));
+            () => Navigator.pushNamed(context, RoutesName.quoteHome));
   }
 }
 
